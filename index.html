@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>B.Tech Student Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css"> <!-- Custom CSS -->
+</head>
+<body class="bg-gray-900 text-white font-sans">
+
+  <!-- Navbar -->
+  <nav class="bg-gray-800 shadow-lg fixed w-full top-0 left-0 z-50">
+    <div class="max-w-6xl mx-auto px-4 flex justify-between items-center h-16">
+      <h1 class="text-2xl font-bold text-yellow-400">My Portfolio</h1>
+      <ul class="flex space-x-6">
+        <li><a href="#about" class="hover:text-yellow-400">About</a></li>
+        <li><a href="#skills" class="hover:text-yellow-400">Skills</a></li>
+        <li><a href="#projects" class="hover:text-yellow-400">Projects</a></li>
+        <li><a href="#languages" class="hover:text-yellow-400">Languages</a></li>
+        <li><a href="#contact" class="hover:text-yellow-400">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="h-screen flex flex-col justify-center items-center text-center bg-gradient-to-r from-purple-700 to-indigo-700 hero-section">
+    <h2 class="text-4xl md:text-6xl font-extrabold animate-fadeIn">Hi, I am <span class="text-yellow-400">Samir Rao</span></h2>
+    <p class="mt-4 text-xl md:text-2xl animate-fadeInDelay">B.Tech Student | Java Developer</p>
+    <p class="mt-2 text-gray-200 max-w-xl animate-fadeInDelay2">Passionate about building scalable applications, backend development, and solving real-world problems with Java.</p>
+    <a href="#projects" class="mt-6 px-6 py-3 bg-yellow-400 text-black font-bold rounded-full hover:bg-yellow-300 transition">View My Work</a>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-20 bg-gray-900 text-center">
+    <h2 class="text-3xl font-bold mb-6 text-yellow-400">About Me</h2>
+    <p class="max-w-2xl mx-auto text-gray-300">
+      I am a final-year B.Tech student specializing in Java Development. I also explore C programming, Python, Generative AI, and design with Canva. 
+      I am eager to contribute to innovative software solutions and continuously learning new technologies.
+    </p>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="py-20 bg-gray-800">
+    <h2 class="text-3xl font-bold text-center mb-10 text-yellow-400">My Skills</h2>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-5xl mx-auto">
+      <div class="bg-gray-700 p-6 rounded-xl text-center shadow hover:scale-105 transition">
+        <h3 class="text-xl font-semibold">C Programming</h3>
+      </div>
+      <div class="bg-gray-700 p-6 rounded-xl text-center shadow hover:scale-105 transition">
+        <h3 class="text-xl font-semibold">Generative AI</h3>
+      </div>
+      <div class="bg-gray-700 p-6 rounded-xl text-center shadow hover:scale-105 transition">
+        <h3 class="text-xl font-semibold">Canva</h3>
+      </div>
+      <div class="bg-gray-700 p-6 rounded-xl text-center shadow hover:scale-105 transition">
+        <h3 class="text-xl font-semibold">Python (Still Learning)</h3>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-20 bg-gray-900">
+    <h2 class="text-3xl font-bold text-center mb-10 text-yellow-400">Projects</h2>
+    <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto px-4">
+      <div class="bg-gray-800 rounded-xl shadow-lg p-6 hover:scale-105 transition">
+        <h3 class="text-xl font-bold mb-2">Student Management System</h3>
+        <p class="text-gray-300">A Java + Spring Boot project to manage student records with CRUD operations and MySQL database.</p>
+      </div>
+      <div class="bg-gray-800 rounded-xl shadow-lg p-6 hover:scale-105 transition">
+        <h3 class="text-xl font-bold mb-2">E-Commerce Backend</h3>
+        <p class="text-gray-300">Developed REST APIs for authentication, product management, and order tracking using Java.</p>
+      </div>
+      <div class="bg-gray-800 rounded-xl shadow-lg p-6 hover:scale-105 transition">
+        <h3 class="text-xl font-bold mb-2">Library Management System</h3>
+        <p class="text-gray-300">A Java-based project with JDBC and MySQL for tracking books, members, and transactions.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Achievement Section -->
+<section id="achievements" class="py-20 bg-gray-800">
+  <h2 class="text-3xl font-bold text-center mb-10 text-yellow-400">My Achievements</h2>
+  
+  <div class="max-w-3xl mx-auto">
+    <ul class="list-disc list-inside space-y-4 text-gray-100 text-lg">
+      <li>Holds 1st position in school level Olympiad in Science</li>
+      <li>Holds 1st position in school level Olympiad in Hindi</li>
+      <li>Worked in Computer and Science related exhibition in School</li>
+      <li>Became the 2nd Runner up in Eureka Entrepreneurship Programme as a team organized by Kalyani Govt. Engineering College and selected in the zonal round for presenting our idea in IIT-Bombay</li>
+    </ul>
+  </div>
+</section>
+
+
+  <!-- Languages Section -->
+<section id="languages" class="py-20 bg-gray-800">
+  <h2 class="text-3xl font-bold text-center mb-10 text-yellow-400">Languages I Know</h2>
+
+  <div class="flex flex-wrap justify-center gap-10 max-w-5xl mx-auto">
+
+    <!-- Hindi -->
+    <div class="flex flex-col items-center">
+      <div class="relative w-24 h-24">
+        <svg class="transform -rotate-90" width="96" height="96">
+          <circle cx="48" cy="48" r="40" stroke="#4B5563" stroke-width="8" fill="none" />
+          <circle cx="48" cy="48" r="40" stroke="#FACC15" stroke-width="8" fill="none"
+                  stroke-dasharray="251.2" stroke-dashoffset="50" stroke-linecap="round" />
+        </svg>
+        <div class="absolute inset-0 flex items-center justify-center text-white font-semibold">80%</div>
+      </div>
+      <span class="mt-4 text-white font-medium">Hindi</span>
+    </div>
+
+    <!-- English -->
+    <div class="flex flex-col items-center">
+      <div class="relative w-24 h-24">
+        <svg class="transform -rotate-90" width="96" height="96">
+          <circle cx="48" cy="48" r="40" stroke="#4B5563" stroke-width="8" fill="none" />
+          <circle cx="48" cy="48" r="40" stroke="#FACC15" stroke-width="8" fill="none"
+                  stroke-dasharray="251.2" stroke-dashoffset="25" stroke-linecap="round" />
+        </svg>
+        <div class="absolute inset-0 flex items-center justify-center text-white font-semibold">90%</div>
+      </div>
+      <span class="mt-4 text-white font-medium">English</span>
+    </div>
+
+    <!-- Bengali -->
+    <div class="flex flex-col items-center">
+      <div class="relative w-24 h-24">
+        <svg class="transform -rotate-90" width="96" height="96">
+          <circle cx="48" cy="48" r="40" stroke="#4B5563" stroke-width="8" fill="none" />
+          <circle cx="48" cy="48" r="40" stroke="#FACC15" stroke-width="8" fill="none"
+                  stroke-dasharray="251.2" stroke-dashoffset="100" stroke-linecap="round" />
+        </svg>
+        <div class="absolute inset-0 flex items-center justify-center text-white font-semibold">60%</div>
+      </div>
+      <span class="mt-4 text-white font-medium">Bengali</span>
+    </div>
+
+    <!-- Oriya -->
+    <div class="flex flex-col items-center">
+      <div class="relative w-24 h-24">
+        <svg class="transform -rotate-90" width="96" height="96">
+          <circle cx="48" cy="48" r="40" stroke="#4B5563" stroke-width="8" fill="none" />
+          <circle cx="48" cy="48" r="40" stroke="#FACC15" stroke-width="8" fill="none"
+                  stroke-dasharray="251.2" stroke-dashoffset="150" stroke-linecap="round" />
+        </svg>
+        <div class="absolute inset-0 flex items-center justify-center text-white font-semibold">40%</div>
+      </div>
+      <span class="mt-4 text-white font-medium">Oriya</span>
+    </div>
+
+    <!-- Telugu -->
+    <div class="flex flex-col items-center">
+      <div class="relative w-24 h-24">
+        <svg class="transform -rotate-90" width="96" height="96">
+          <circle cx="48" cy="48" r="40" stroke="#4B5563" stroke-width="8" fill="none" />
+          <circle cx="48" cy="48" r="40" stroke="#FACC15" stroke-width="8" fill="none"
+                  stroke-dasharray="251.2" stroke-dashoffset="125" stroke-linecap="round" />
+        </svg>
+        <div class="absolute inset-0 flex items-center justify-center text-white font-semibold">50%</div>
+      </div>
+      <span class="mt-4 text-white font-medium">Telugu</span>
+    </div>
+
+  </div>
+</section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-20 bg-gray-900">
+    <h2 class="text-3xl font-bold text-center mb-10 text-yellow-400">Contact Me</h2>
+    <form id="contactForm" class="max-w-xl mx-auto bg-gray-800 p-8 rounded-xl shadow-lg">
+      <div class="mb-4">
+        <input type="text" id="name" placeholder="Your Name" class="w-full p-3 rounded bg-gray-700 text-white focus:outline-none">
+      </div>
+      <div class="mb-4">
+        <input type="email" id="email" placeholder="Your Email" class="w-full p-3 rounded bg-gray-700 text-white focus:outline-none">
+      </div>
+      <div class="mb-4">
+        <textarea id="message" placeholder="Your Message" class="w-full p-3 rounded bg-gray-700 text-white focus:outline-none"></textarea>
+      </div>
+      <button type="submit" class="w-full bg-yellow-400 text-black font-bold py-3 rounded hover:bg-yellow-300 transition">Send Message</button>
+      <p id="formMessage" class="text-center mt-4"></p>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 py-6 text-center text-gray-400">
+    © 2025 Samir Rao | Java Developer
+  </footer>
+
+  <!-- External JS -->
+  <script src="script.js"></script>
+</body>
+</html>
